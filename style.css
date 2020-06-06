@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.signin-form, .signup-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 16vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn-primary{
+    min-width: 150px;
+}
+body{
+    background: url("img/background-index.png");
+}
+.index-input{
+    width: 100%;
+    margin: 10px;
+}
+
+.password{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.msg-suc,.msg-err{
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top:100%;
+}
+
+.p1{
+    align-items: center;
+}
+
+.msg-err{
+    color: red;
+    border: 1px solid red;
+}
+
+.msg-suc{
+    color: green;
+    border: 1px solid green;
+}
+
+.none{
+    display: none;
+}
+
+.rosatom-logo{
+    width: 200px;
+    position: absolute;
+    top: 2vh;
+    right: 2vw;
+}
+
+label{
+    color:white;
+    margin: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.error{
+    border: 2px solid red !important;
+}

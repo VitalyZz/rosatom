@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.signin-form, .signup-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 16vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn-primary{
+    min-width: 150px;
+}
+body{
+    background: url("img/background-index.png");
+    font-family: Arial, sans-serif;
+}
+
+.index-input{
+    width: 100%;
+    margin: 10px;
+}
+
+.password{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.msg-suc,.msg-err{
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top:100%;
+}
+
+.p1{
+    align-items: center;
+}
+
+.msg-err{
+    color: red;
+    border: 1px solid red;
+}
+
+.msg-suc{
+    color: green;
+    border: 1px solid green;
+}
+
+.none{
+    display: none;
+}
+
+.rosatom-logo{
+    width: 200px;
+    position: absolute;
+    top: 2vh;
+    right: 2vw;
+}
+
+label{
+    color:white;
+    margin: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.error{
+    border: 2px solid red !important;
+}
+
+.text_div {
+    background-color: #0094ff;
+    padding: 10px 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.instr {
+    font-size: 28px;
+    text-align: center;
+}
+
+.elOfText {
+    background-color: #ffd12a;
+    font-size: 18px;
+    color: #1B1B1B;
+    padding: 10px 30px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.btnDownload {
+    border: none;
+    background-color: #00c735;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 50px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btnDownload:hover {
+    background-color: #00a82e;
+}
+
+.btnExit {
+    background: #f00;
+    border: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.btnExit:hover {
+    background: #cb0000;
+}
+
+.youIn {
+    color: #3fff9d;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
